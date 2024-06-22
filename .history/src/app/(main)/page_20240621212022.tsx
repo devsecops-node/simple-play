@@ -8,6 +8,7 @@ export default function Home() {
     <Container>
       <h1 className="text-[20px] text-sky-600 font-bold tracking-tighter">Login</h1>
       <FormsName />
+      <Image src="/paloma.webp" alt="Cargando" width={20} height={20} />
     </Container>
   );
 }

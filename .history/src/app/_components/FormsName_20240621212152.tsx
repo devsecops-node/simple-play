@@ -24,7 +24,7 @@ const FormsName = () => {
           placeholder="write your name ..." id="name" />
       </section>
       {statusSearch ? (<RecomendationsSearch retrieveData={retrieveData} />) : <></>}
-      {statusSearch ? (<div className='flex justify-center items-center'><Image src="/paloma.webp" alt="Cargando" width={100} height={100} /></div>) : <></>}
+      {statusSearch ? (<Image src="/paloma.webp" alt="Cargando" width={100} height={100} />) : <></>}
     </form>
   )
 }

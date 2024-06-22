@@ -19,7 +19,7 @@ const page = () => {
     { id: 1, imagen: '/semaforo.jpg', recomenda: 'Cuando sonries, el mundo entero se detiene, porque no puedes verlo ⭐' },
     { id: 2, imagen: '/semaforo.jpg', recomenda: 'Si me preguntas que si te ves bien, diria que no hay nada que cambiaria, eres increible, tal como eres. Asi que animate 😇' },
     { id: 3, imagen: '/semaforo.jpg', recomenda: 'Si en algun momento tienes ganas de llorar, puedes llamarme, no prometo hacerte reir, pero puedo llorar contigo 🥹' },
-    { id: 4, imagen: '/semaforo.jpg', recomenda: ".... ❓ Click abajo" }
+    { id: 4, imagen: '/semaforo.jpg', recomenda: ".... ❓" }
   ]
 
   const rightMove = () => {

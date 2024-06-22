@@ -28,6 +28,7 @@ const RecomendationsSearch = ({ retrieveData }: { retrieveData: (data: Recomenda
         onClick={() => router.push('/recomendations')}
       >next
       </button>
+      <Image src="/paloma.webp" alt="Cargando" width={100} height={100} />
     </div>
   )
 }
