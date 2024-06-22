@@ -47,7 +47,7 @@ const page = () => {
 
       </div>
       <p className={`self-center z-10 transition-all duration-150 tracking-tighter text-[15px] font-bold  ${(count % 3 === 0 && count > 0) ? 'block' : 'hidden'}`}>No se puede <span className='text-red-500'>Cargar Mas</span> si no haces click</p>
-      {(count % 3 === 0 && count > 0) ? <Image priority  src="/entusiasmo.webp" alt='entusiasmo cargando' width={100} height={100} /> : null}
+      {(count % 3 === 0 && count > 0) ? <Image priority src="/entusiasmo.webp" alt='entusiasmo cargando' width={100} height={100} /> : null}
       <button
 
         onMouseEnter={() => rightMove()}
