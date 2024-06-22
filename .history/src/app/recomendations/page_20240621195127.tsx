@@ -42,7 +42,7 @@ const page = () => {
         </div>
 
       </div>
-      <p className={`self-center z-10 transition-all duration-150 tracking-tighter text-[15px] font-bold  ${(count % 3 === 0 && count > 0) ? 'block' : 'hidden'}`}>No se puede <span className='text-red-500'>Cargar Mas</span> si no haces click</p>
+      <p className={`self-center z-10 transition-all duration-150 ${count % 3 === 0 ? 'block' : 'hidden'}`}>No se puede cargar mas si no haces click</p>
       <button
         onMouseEnter={() => rightMove()}
         onTouchStart={() => rightMove()}
