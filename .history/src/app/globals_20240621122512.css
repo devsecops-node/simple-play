@@ -18,9 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -29,19 +32,15 @@ body {
   }
 }
 
-input {
+input{
   color: black;
-  padding: 3px 5px;
-  border-radius: 0.125rem;
-  -webkit-border-radius: 0.125rem;
-  -moz-border-radius: 0.125rem;
-  -ms-border-radius: 0.125rem;
-  -o-border-radius: 0.125rem;
+  padding: 0 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   font-size: 15px;
   border: none;
+  outline: 2px solid #38bdf8;
 }
-
-input[type=text]:focus {
-  outline: 2px solid #0284c7;
-}
-/* Resource for Card */

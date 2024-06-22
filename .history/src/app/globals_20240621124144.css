@@ -18,9 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -29,7 +32,7 @@ body {
   }
 }
 
-input {
+input{
   color: black;
   padding: 3px 5px;
   border-radius: 0.125rem;
@@ -40,8 +43,6 @@ input {
   font-size: 15px;
   border: none;
 }
-
 input[type=text]:focus {
   outline: 2px solid #0284c7;
 }
-/* Resource for Card */
